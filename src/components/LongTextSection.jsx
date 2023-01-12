@@ -24,8 +24,7 @@ const LongTextSection = () => {
           transfer in forex margins and transaction fees. We believe there’s
           something inherently wrong with that, and we’re on a path to change
           it. Our powerfully engineered technology and carefully designed mobile
-          experience will allow sending and receiving money globally with no
-          charges.
+          experience will allow sending money globally with no charges.
         </p>
         <p>
           We appreciate everyone’s lovely enthusiasm and patience as we gear up
