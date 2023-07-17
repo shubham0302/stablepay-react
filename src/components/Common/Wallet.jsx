@@ -227,14 +227,14 @@ const Wallet = () => {
               ))}
             </select>
           </div>
-          <div className="flex text-pri mt-6">
+          {/* <div className="flex text-pri mt-6">
             <p>Transfer&nbsp;Fees</p>
             <div
               className="w-full mb-[6px]"
               style={{ borderBottom: "2px dotted rgb(102 103 171)" }}
             ></div>
             <span>$0.00</span>
-          </div>
+          </div> */}
           <div className="flex my-4 text-pri mb-6">
             <p>Transfer&nbsp;Time</p>
             <div

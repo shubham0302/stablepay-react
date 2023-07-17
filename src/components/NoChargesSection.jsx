@@ -7,9 +7,16 @@ const NoChargesSection = () => {
     <section className="py-10">
       <div className="container flex flex-col md:flex-row-reverse justify-center flex-wrap gap-10 max-w-7xl mx-auto">
         <div className="flex-1 flex flex-col justify-center tab:items-start items-center text-center tab:text-left text-[#e1e1ff]">
-          <div className="max-w-lg tab:flex flex-wrap tab:items-start text-center gap-2 text-2xl tab:text-4xl font-dm_serif text-white">
-            <h5 className="text-center">Stable Pay fees $0</h5>
-            <TypeComponent />
+          <div className="max-w-lg tab:flex flex-col tab:items-start text-center gap-2 text-2xl tab:text-4xl font-dm_serif text-white">
+            <h5 className="text-center">Stable Pay</h5>
+            <div className="flex items-center gap-2">
+              <h6 className="text-center">
+                {/* <br /> */}
+                $0
+              </h6>
+              <TypeComponent />
+              {/* <h6 className="text-center">Fees</h6> */}
+            </div>
           </div>
           <p className="text-xl my-6 text-[#e8e8ff]">
             In short NO charges for sending money around the world, instantly!
@@ -28,7 +35,7 @@ const NoChargesSection = () => {
         </div>
         <div className="relative flex-1 flex items-center justify-center aspect-h-image md:overflow-hidden">
           <img
-            src="/Images/stable-pay-mock.png"
+            src="./images/stable-pay-mock.png"
             className="max-w-[60%] md:h-[80%]"
             alt="subject"
           />

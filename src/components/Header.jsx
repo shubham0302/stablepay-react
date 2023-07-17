@@ -20,7 +20,7 @@ const Header = () => {
 
   const navLinks = [
     { label: "Rates & Fees", link: "#comparison-section" },
-    { label: "About Us", link: "#about-us" },
+    // { label: "About Us", link: "#about-us" },
     { label: "Contact Us", link: "#contact-us" },
   ];
 
@@ -41,7 +41,7 @@ const Header = () => {
         } flex justify-between items-center`}
       >
         <div className="max-w-7xl flex justify-between w-full mx-auto">
-          <a href={"/"}>
+          <a href={"#"}>
             <h1
               className={`font-dm_serif text-3xl cursor-pointer ${
                 stiHeader ? "text-pri" : "text-white"

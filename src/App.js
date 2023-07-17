@@ -28,7 +28,7 @@ const App = () => {
       {/* <VideoCard /> */}
       <ComparisonCardSection />
       <NoChargesSection />
-      <LongTextSection />
+      {/* <LongTextSection /> */}
       <ContactUsSection />
       <LastSection />
     </div>

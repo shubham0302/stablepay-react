@@ -4,16 +4,16 @@ import Typical from "react-typical";
 
 const TypeComponent = () => {
   return (
-    <div className="text-white w-[220px] tab:text-left">
+    <div className="text-white tab:text-left">
       <Typical
         steps={[
-          "Forex",
+          "Forex Fees",
           1500,
-          "Transaction",
+          "Transaction Fees",
           1500,
-          "Service",
+          "Service Fees",
           1500,
-          "Convenience",
+          "Convenience Fees",
           1500,
         ]}
         loop={Infinity}

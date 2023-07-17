@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "./Card";
 import Intro from "./Common/Intro";
+import EmailComponent from "./EmailComponent";
 
 const Hero = () => {
   return (
@@ -11,6 +12,10 @@ const Hero = () => {
           consuming.
         </Intro>
         <Card />
+        <EmailComponent
+          extraClass="self-center lg:hidden"
+          buttonAppearence="pri"
+        />
       </div>
     </main>
   );

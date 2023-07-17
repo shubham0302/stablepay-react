@@ -1,5 +1,7 @@
+import axios from "axios";
 import React from "react";
 import { BsFacebook, BsInstagram, BsTwitter } from "react-icons/bs";
+// import sendMail from "../api/contact";
 import ButtonComponent from "./ButtonComponent";
 import FormikForm from "./FormikForm";
 import FormInput from "./FormikForm/formInput";
@@ -8,6 +10,21 @@ import FormTextarea from "./FormikForm/formTextarea";
 const ContactUsSection = () => {
   const submitAction = (values) => {
     console.log(values);
+
+    try {
+      // const data = sendMail(values);
+
+      const data = axios.post("/api/contact", values);
+
+      if (data) {
+        console.log("Form submitted successfully");
+      } else {
+        console.log("error in submitting form");
+      }
+    } catch (error) {
+      console.log(error);
+    }
+    // sendMail(values);
   };
 
   const socialHandles = [

@@ -10,7 +10,7 @@ const Intro = ({ title, children }) => {
       <p className="heroDesc text-[#f7f8f0] lg:w-5/6 text-center lg:text-start">
         {children}
       </p>
-      <EmailComponent buttonAppearence="pri" />
+      <EmailComponent buttonAppearence="pri" extraClass="hidden lg:block" />
     </div>
   );
 };

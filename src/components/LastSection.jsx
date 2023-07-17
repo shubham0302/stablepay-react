@@ -9,6 +9,7 @@ const LastSection = () => {
         consuming
       </h1>
       <EmailComponent buttonAppearence="pri" />
+      <h5 className="text-white mt-4">Stablepay Owned by FincryptLLP</h5>
     </section>
   );
 };
