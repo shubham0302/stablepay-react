@@ -9,7 +9,13 @@ const LastSection = () => {
         consuming
       </h1>
       <EmailComponent buttonAppearence="pri" />
-      <h5 className="text-white mt-4">Stablepay Owned by FincryptLLP</h5>
+      {/* <h5 className="text-white mt-4">Stablepay Owned by FincryptLLP</h5> */}
+      <a href="/privacy-policy" className="text-white mt-4">
+        Privacy Policy
+      </a>
+      <a href="/terms-conditions" className="text-white mt-4">
+        Terms and Conditions
+      </a>
     </section>
   );
 };
