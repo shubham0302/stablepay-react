@@ -21,8 +21,8 @@ const Terms = () => {
   };
 
   const linkStyle = {
-    color: "#1a1a33",
-    textDecoration: "none",
+    color: "#fff",
+    textDecoration: "underline",
   };
 
   return (
@@ -228,7 +228,7 @@ const Terms = () => {
         provisions. Any dispute arising out of or in connection with this
         Agreement, including any question regarding its existence, validity, or
         termination, shall be subject to the exclusive jurisdiction of the
-        courts of [insert location, e.g., Mumbai, India].
+        courts of Gandhinagar, Gujarat, India
       </p>
 
       <h2 style={headingStyle}>Miscellaneous</h2>
@@ -277,8 +277,12 @@ const Terms = () => {
       <p style={paragraphStyle}>
         If you have any questions, comments, or concerns about this Agreement or
         the Services, please contact us at{" "}
-        <a href="mailto:insert contact email address" style={linkStyle}>
-          [insert contact email address]
+        <a
+          href="mailto:hello@stablepay.global"
+          target="_blank"
+          style={linkStyle}
+        >
+          hello@stablepay.global
         </a>
         .
       </p>
