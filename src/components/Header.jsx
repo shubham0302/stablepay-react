@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { useLocation } from "react-router";
 
 const Header = () => {
   const [hamOpen, sethamOpen] = useState(false);
@@ -19,12 +20,14 @@ const Header = () => {
   }, []);
 
   const navLinks = [
-    { label: "Rates & Fees", link: "#comparison-section" },
+    { label: "Rates & Fees", link: "/#comparison-section" },
     // { label: "About Us", link: "#about-us" },
-    { label: "Contact Us", link: "#contact-us" },
+    { label: "Contact Us", link: "/#contact-us" },
   ];
 
-  // const router = useRouter();
+  const location = window.location.pathname;
+
+  // console.log(location, "location");
 
   return (
     <>
@@ -55,11 +58,13 @@ const Header = () => {
               stiHeader ? "tab:text-pri" : "tab:text-white"
             }`}
           >
-            {navLinks.map((navLink, i) => (
-              <a href={navLink.link} key={i}>
-                {navLink.label}
-              </a>
-            ))}
+            {location !== "/privacy-policy" &&
+              location !== "/terms-conditions" &&
+              navLinks.map((navLink, i) => (
+                <a href={navLink.link} key={i}>
+                  {navLink.label}
+                </a>
+              ))}
 
             {/* <a
               className="hover:text-pri-dark transition-all flex justify-between w-full text-pri-dark"
