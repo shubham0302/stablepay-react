@@ -35,7 +35,7 @@ const NoChargesSection = () => {
         </div>
         <div className="relative flex-1 flex items-center justify-center aspect-h-image md:overflow-hidden">
           <img
-            src="./images/stable-pay-mock.png"
+            src="./images/mobile-mock.webp"
             className="max-w-[60%] md:h-[80%]"
             alt="subject"
           />

@@ -93,12 +93,12 @@ const EmailComponent = ({ buttonAppearence, extraClass }) => {
     //   />
     // </div>
     <a
-      href="https://forms.gle/oEnWBcPmJj87VLtw9"
+      href="https://onelink.to/bhvkxw"
       target="_blank"
       className={cn("", { [extraClass]: !!extraClass })}
     >
       <ButtonComponent
-        buttonText="Get Early Access"
+        buttonText="Download the App"
         buttonClass="text-sm bg-pri-dark"
       />
     </a>
